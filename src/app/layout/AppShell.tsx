@@ -35,7 +35,7 @@ export function AppShell() {
         <p className="page-eyebrow">Session security</p>
         <h1>Workspace access changed</h1>
         <p>
-          Your membership is no longer active. Workelia removed workspace data
+          Your membership is no longer active. MeadowLink removed workspace data
           from the active view.
         </p>
         <button
@@ -57,7 +57,7 @@ export function AppShell() {
         <p className="page-eyebrow">Session security</p>
         <h1>Permissions could not be verified</h1>
         <p>
-          Workelia removed workspace data from this view until your access can
+          MeadowLink removed workspace data from this view until your access can
           be confirmed.
         </p>
         <button
@@ -80,11 +80,11 @@ export function AppShell() {
       </a>
 
       <aside className="app-sidebar">
-        <Link className="app-brand" to="/" aria-label="Workelia dashboard">
+        <Link className="app-brand" to="/" aria-label="MeadowLink dashboard">
           <span className="app-brand__mark" aria-hidden="true">
-            WE
+            ML
           </span>
-          <span>Workelia</span>
+          <span>MeadowLink</span>
         </Link>
 
         <PrimaryNavigation />
@@ -111,7 +111,7 @@ export function AppShell() {
         <header className="app-topbar">
           <div>
             <p className="app-topbar__label">Create space for good work</p>
-            <p className="app-topbar__name">Workelia Workspace</p>
+            <p className="app-topbar__name">MeadowLink Workspace</p>
           </div>
           <GlobalSearch />
           <NotificationCenter />

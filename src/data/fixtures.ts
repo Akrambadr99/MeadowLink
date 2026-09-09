@@ -19,7 +19,7 @@ export function createAtlasFixtures(
 
   const workspace = {
     id: ids.workspace('operations'),
-    name: 'Workelia Workspace',
+    name: 'MeadowLink Workspace',
     slug: 'atlas-operations',
     createdAt,
   }
